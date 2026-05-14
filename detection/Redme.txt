@@ -1,0 +1,24 @@
+torch==2.2.2 
+torchvision==0.17.2
+flash_attn-2.7.3+cu11torch2.2cxx11abiFALSE-cp311-cp311-linux_x86_64.whl
+timm==1.0.14
+albumentations==2.0.4
+onnx==1.14.0
+onnxruntime==1.15.1
+pycocotools==2.0.7
+PyYAML==6.0.1
+scipy==1.13.0
+onnxslim==0.1.31
+onnxruntime-gpu==1.18.0
+gradio==4.44.1
+opencv-python==4.9.0.80
+psutil==5.9.8
+py-cpuinfo==9.0.0
+huggingface-hub==0.23.2
+safetensors==0.4.3
+numpy==1.26.4
+supervision==0.22.0
+
+The model training code is located in the "Train" directory, and the dataset can be downloaded to a directory at the same level as "Train".
+data1.yaml corresponds to the UOD dataset. data2.yaml corresponds to the DUO dataset.
+The code for DLGA and DPC can be viewed in the "ultralytics/nn/ours" folder. The path to LUOD-YOLO.yaml is "ultralytics/cfg/models/v8/LUOD-YOLO.yaml". The paths in data.yaml and the training code need to be modified according to your actual path. We have recently made improvements to some details of the model to optimize its performance, and we may continue to develop and optimize this model in the future.

@@ -1,0 +1,7 @@
+train: G:/xhr_over/ObjectDectect/DUO/DUO/images/train
+val: G:/xhr_over/ObjectDectect/DUO/DUO/images/val
+
+nc: 4
+# names: ['holothurian', 'echinus', 'scallop', 'starfish']
+# ['海参', '海胆', '扇贝', '海星']
+names: ['starfish', 'holothurian', 'echinus', 'scallop']

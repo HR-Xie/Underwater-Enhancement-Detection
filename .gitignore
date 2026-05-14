@@ -1,0 +1,39 @@
+# Pretrained weights (download separately)
+weights/*.pth
+weights/*.pt
+weights/*.onnx
+!weights/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Output
+result/
+output/
+logs/
+runs/
+checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Wandb
+wandb/
+
+# Large media
+*.mp4

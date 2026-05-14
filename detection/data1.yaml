@@ -1,0 +1,5 @@
+train: G:/xhr_over/ObjectDectect/Underwater-object-detection-dataset-main/images/train
+val: G:/xhr_over/ObjectDectect/Underwater-object-detection-dataset-main/images/val
+
+nc: 3
+names: ['holothurian', 'echinus', 'scallop']
