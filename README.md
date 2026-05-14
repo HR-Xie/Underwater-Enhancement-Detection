@@ -164,7 +164,7 @@ Underwater-Enhancement-Detection/
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Underwater-Enhancement-Detection.git
+git clone https://github.com/HR-Xie/Underwater-Enhancement-Detection.git
 cd Underwater-Enhancement-Detection
 pip install -r requirements.txt
 ```
