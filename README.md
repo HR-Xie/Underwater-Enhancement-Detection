@@ -257,15 +257,3 @@ Features:
 
 MIT License. See [LICENSE](./LICENSE) for details.
 
----
-
-## Citation
-
-```bibtex
-@thesis{underwater-enhance-detection,
-  title  = {Lightweight Underwater Image Enhancement and Object Detection Algorithm Research and Application},
-  author = {Your Name},
-  school = {Your University},
-  year   = {2025},
-}
-```
